@@ -1,116 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-        <meta name="description" content="Catalan Labs, an augmented reality and wearable technology company.">
+<head>
 
-        <title>Nucarbn</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Nucarbn">
+    <meta name="application-name" content="Nucarbn">
+    
+    <meta name="google-site-verification" content="hZjJzIatDv6MSixMX6FSNtzYTTtc3PFkf1EKqdpI5Go" />
+    
+    <!--THEME-->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#3d3d3d">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#3d3d3d">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3d3d3d">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="res/img/favicons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="res/img/favicons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="res/img/favicons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="res/img/favicons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="res/img/favicons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="res/img/favicons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="res/img/favicons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="res/img/favicons/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="res/img/favicons/apple-touch-icon-180x180.png">
-        <meta name="apple-mobile-web-app-title" content="Nucarbn">
-        <link rel="shortcut icon" href="res/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="res/img/favicons/favicon-192x192.png" sizes="192x192">
-        <link rel="icon" type="image/png" href="res/img/favicons/favicon-160x160.png" sizes="160x160">
-        <link rel="icon" type="image/png" href="res/img/favicons/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="res/img/favicons/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="res/img/favicons/favicon-32x32.png" sizes="32x32">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="res/img/favicons/mstile-144x144.png">
-        <meta name="msapplication-config" content="res/img/favicons/browserconfig.xml">
-        <meta name="application-name" content="Nucarbn">
+    <!-- SEARCH ENGINES -->
+    <meta name="author" content="Nucarbn, Inc.">
+    <meta name="description" content="World's first wearable device that understands you and provides you with seamless integration of fitness, home control and personal assistant.">
+    <link rel="canonical" href="https://nucarbn.com">
 
-        <link rel="stylesheet" type="text/css" media="screen" href="//fonts.googleapis.com/css?family=Raleway:400|Open+Sans:400,600">
-        <link rel="stylesheet" type="text/css" media="screen" href="./res/styles/gen/stylesheet.css">
 
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-        <!--[if lt IE 9]>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
-        <script>window.html5 || document.write('<script src="./res/js/html5shiv.min.js"><\/script>')</script>
-        <![endif]-->
 
-        <style type="text/css">
-        .iframe-demo
-        {
-            position:absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            border:0;
-            z-index:-1;
-            overflow:hidden;
-            opacity:0;
-            -webkit-transition:all 1s;
-            transition:all 1s
-        }
-         
-        .iframe-demo.visible
-        {
-            opacity:1
-            
-        }
- 
-        .bg-points
-        {
-            position:absolute;
-            width:100%;
-            height:100%;
-            top:0;
-            left:0;
-            background-image:url(res/img/bg-points.png);
-            overflow:hidden
-        }
-        </style>
-    </head>
+    <!-- THE TWITTER MACHINE -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nucarbn">
+    <meta name="twitter:creator" content="@nucarbn">
+    <meta name="twitter:title" content="Nucarbn">
+    <meta name="twitter:description" content="World's first wearable device that understands you and provides you with seamless integration of fitness, home control and personal assistant.">
+    <meta name="twitter:image:src" content="http://nucarbn.com/img/seo/sharing.png">
 
-    <body>
-        <section class="cover" data-speed="3">
 
-            <div class="cover-content">
 
-                <h3>Wearables reimagined and whats ahead?</h3>
-                <h4>Seamless Life™</h4>
-                <div class="logo"><img src="res/img/nucarbn-logo.png" alt="Catalan Labs Logo"></div>
-                
-                <p><a href="http://catalanlabs.us10.list-manage.com/subscribe/post?u=b535fcc5e5c62c1b855419645&amp;id=f4f3b3c75e" class="button">SUBSCRIBE</a></p>
-            </div>
-        </section>
-        <iframe src="CatalanGalaxy.htm" class="iframe-demo visible"></iframe>
+    <!-- FACESPACE -->
+    <meta property="og:site_name" content="Nucarbn">
+    <meta property="og:url" content="https://nucarbn.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nucarbn">
+    <meta property="og:description" content="World's first wearable device that understands you and provides you with seamless integration of fitness, home control and personal assistant.">
+    <meta property="og:image" content="http://nucarbn.com/img/seo/sharing.png">
+    <meta property="fb:app_id" content="1208098505948586">  <!-- FACESPACE -->
+
+
+
+    <!-- G++ -->
+    <meta itemprop="name" content="Nucarbn">
+    <meta itemprop="description" content="World's first wearable device that understands you and provides you with seamless integration of fitness, home control and personal assistant.">
+    <meta itemprop="image" content="http://nucarbn.com/img/seo/sharing.png">
+    <link rel="canonical" href="http://nucarbn.com/">
+
+    <title>Nucarbn</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1732093843785543', {
+    em: 'insert_email_variable,'
+    });
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1732093843785543&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="top" class="header">
         
-        <!--<section id="artwork" class="artwork">
-            <div class="section">
-                <h1>Make the world your playground.</h1>
-                <p>Blending technology and life.</p>
-                
+        <div class="text-vertical-center">
+            
+            <!-- Responsive Logo -->
+            <div id="block">
+                <div class='logo'></div>
             </div>
-        </section>-->
+            
+            <p>World's first wearable device that understands you and provides you with seamless integration of fitness, home control and a reliable personal assistant.</p>
+            <br>
+            
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form role="form" action="//nucarbn.us14.list-manage.com/subscribe/post?u=3b3634d7100da1d417be247a9&amp;id=bab39cd4c7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                    <div class="input-group">
+                        <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="You'll be the first to know!">
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_3b3634d7100da1d417be247a9_bab39cd4c7" tabindex="-1" value=""></div>
+                        <span class="input-group-btn">
+                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger"><i class="fa fa-check"></i></button>
+                        </span>
+                    </div>
+                    <div id="mce-responses">
+                        <div class="input-group">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+            <iframe src="/NucarbnGalaxy.html" class="iframe-demo visible"></iframe>
+        </div>
+    </header>
 
-        <!--<section class="about" id="about" style=" background-image:url('res/img/bg-points.png'); background-repeat:repeat;background-size: ;">
-            <h1 style="color: white">Meet our team</h1>
-            <div class="team row"></div>
-        </section>-->
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- particle scripts -->
+    
+    <!-- ANALYTICS -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <footer style=" background-image:url('res/img/bg-points.png'); background-repeat:repeat;background-size: ;">
-            &#169; 2016 <a href="" rel="publisher">Nucarbn Inc.</a>.
-        </footer>
+        ga('create', 'UA-90345152-1', 'auto');
+        ga('send', 'pageview');
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>
-            window.jQuery || document.write('<script src="./res/js/jquery.min.js"><\/script>')
-        </script>
-        <script src="./res/js/lace.js"></script>
-        <script src="./res/js/main.js"></script>
-    </body>
+    </script>
+
+    <!-- Hotjar Tracking Code for www.nucarbn.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:388735,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
+    <!-- Mailchimp -->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function($) {
+                        window.fnames = new Array(); 
+                        window.ftypes = new Array();
+                        fnames[0]='EMAIL';
+                        ftypes[0]='email';
+                        }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+    </script>
+</body>
+
 </html>
