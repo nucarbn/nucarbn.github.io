@@ -221,22 +221,6 @@
             document.getElementById("subscribe-link").style.display = '';
             }
         });
-        // Do NOT call init() twice
-        // This is just an example
-        OneSignal.push(["init", {
-            /* Your other init options here */
-            notifyButton: {
-                /* Your other notify button settings here ... */
-                enable: true,
-                displayPredicate: function() {
-                    return OneSignal.isPushNotificationsEnabled()
-                        .then(function(isPushEnabled) {
-                            /* The user is subscribed, so we want to return "false" to hide the notify button */
-                            return !isPushEnabled;
-                        });
-                },
-            }
-        }]);
         });
     </script>
 </body>
