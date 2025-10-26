@@ -6,7 +6,7 @@ Template URI: https://onepagelove.com/me
 Description: Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo, bio and icons.
 */
 /* -- CSS Reset -- */
-@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -103,7 +103,7 @@ html {
 body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #141414;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 45px;
   line-height: 60px;
@@ -187,6 +187,10 @@ body.page-template-page-fullsingle-me {
   @media (max-width: 800px) {
     .bio {
       max-width: none; } }
+  .bio p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
   .bio a {
     color: #CCCCCC;
     transition: 1s; }
@@ -295,7 +299,7 @@ body.page-template-page-fullsingle-me.me-video {
 
 /* New Button */
 input, textarea, select{
-  font-family: MuseoSans, serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #fff;
 }
@@ -307,7 +311,7 @@ button{
 }
 
 input{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	font-weight: 3100;
 }
@@ -346,6 +350,7 @@ input{
 	background: #1c46f2;
 	color: #fff;
 	border: none;
+  padding: 0 24px;
 }
 .form_subscriber .button:focus{
 	outline: none;

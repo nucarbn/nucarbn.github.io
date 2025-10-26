@@ -1,7 +1,5 @@
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
-@import url('https://fonts.googleapis.com/css?family=Yellowtail');
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
 
 /* Global Styles */
 
@@ -12,8 +10,8 @@ body {
 }
 
 body {
-    font-family: 'Lato',sans-serif;
-    font-weight: 300;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
     font-size: 16px;
     color: #555;
     line-height: 1.6em;
